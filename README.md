@@ -1,2 +1,2 @@
 # odin-recipes
-Hello today im gonna make a project recipes from TOP.
+Hello this is my first project recipes from TOP.
