@@ -64,26 +64,88 @@
     object-fit: cover;
 }
 
-.card button {
-    padding: 15px;
-    width: 50%;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    margin: 20px;
-}
-
-button a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 16px;
-}
-
 h2 {
     font-size: 50px;
     font-weight: 1000;
     text-align: center;
     margin: 50px;
+}
+
+.card .btn {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.card .btn:hover {
+    background-color: grey;
+    color: white;
+}
+
+.btn {
+    text-align: center;
+
+}
+
+.broccoli-container {
+    padding: 20px;
+}
+
+.broccoli-container h1 {
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+    margin: 30px;
+}
+
+.broccoli-container p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.broccoli-container img {
+    border-radius: 20px;
+    display: block;
+    margin: auto; 
+    max-width: 100%;
+    height: auto;
+}
+
+.ingredient-card ul, .ingredient-card ol {
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.ingredient-card {
+    width: 600px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ingredient-card h3 {
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+.ingredient-card li {
+    line-height: 1.5;
+    margin-bottom: 12px;
 }
